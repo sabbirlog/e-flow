@@ -1,6 +1,10 @@
+import ProductCard from "@/components/ProductCard"
+
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <>
+      <ProductCard title="mac laptop on table" price={390} rating={4.5} />
+    </>
   )
 }
 
